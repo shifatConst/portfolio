@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from 'react-particles-js'
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
+import Skills from './components/Skills/Skills';
+import AboutMe from './components/AboutMe/AboutMe';
 function App() {
   return (
     <div className="App">
@@ -28,6 +30,8 @@ function App() {
       />
       <Navbar></Navbar>
       <Header></Header>
+      <AboutMe></AboutMe>
+      <Skills></Skills>
     </div>
   );
 }
