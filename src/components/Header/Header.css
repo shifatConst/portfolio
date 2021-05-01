@@ -1,0 +1,47 @@
+.header-wrapper {
+    position: relative;
+    background: url(../../Images/headerbg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+}
+
+.main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    z-index: 1;
+}
+
+.main-info h1 {
+    color: var(--primary-orange);
+    text-transform: uppercase;
+}
+
+.typed-text{
+    font-size: 2rem;
+    color: var(--primary-white);
+}
+.btn-main-offer{
+    border: 1px solid var(--primary-red);
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: var(--primary-white);
+    margin: 2rem;
+    border-radius: 5px;
+}
+.btn-main-offer:hover {
+    text-decoration: none;
+    background-color: var(--primary-hover-red);
+    color: var(--primary-white);
+    transition: .2s;
+}
