@@ -3,7 +3,7 @@ import projectsData from '../../projectsData'
 
 const Projects = () => {
     return (
-        <div className="container py-5">
+        <div className="container py-5" style={{backgroundColor: "#ea907a"}}>
             <h2 className="text-center py-3">MY PROJECTS</h2>
             <div className='row'>
                 {

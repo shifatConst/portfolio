@@ -1,12 +1,13 @@
 import React from 'react';
+import './skill.css'
 const Skills = () => {
     return (
-        <div className="container">
-            <h2>My Skills</h2>
+        <div className="container skill-style">
+            <h2 className="text-center">MY SKILLS</h2>
             <div className="row">
-                <div className="col-sm-4">
+                <div className="col-sm-4 my-3">
                     <div className="card text-center" style={{ width: "18rem" }}>
-                        <div className="card-header">
+                        <div className="card-header" style={{ backgroundColor: "#ea907a" }}>
                             Front-End
                         </div>
                         <ul className="list-group list-group-flush">
@@ -19,9 +20,9 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className="col-sm-4">
+                <div className="col-sm-4 my-3">
                     <div className="card text-center" style={{ width: "18rem" }}>
-                        <div className="card-header">
+                        <div className="card-header" style={{ backgroundColor: "#ea907a" }}>
                             Back-End
                         </div>
                         <ul className="list-group list-group-flush">
@@ -32,9 +33,9 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className="col-sm-4">
+                <div className="col-sm-4 my-3">
                     <div className="card text-center" style={{ width: "18rem" }}>
-                        <div className="card-header">
+                        <div className="card-header" style={{ backgroundColor: "#ea907a" }}>
                             Hosting
                         </div>
                         <ul className="list-group list-group-flush">

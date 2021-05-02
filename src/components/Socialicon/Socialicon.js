@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons'
 const Socialicon = () => {
     const iconStyle = {
-        color: "#f9ab00",
-        height: '2.813rem',
-        width: '2.813rem'
+        color: "#ef4035",
+        height: '2.5rem',
+        width: '2.5rem'
     };
     return (
         <div className="py-3">

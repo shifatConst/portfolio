@@ -3,7 +3,7 @@ import Socialicon from '../Socialicon/Socialicon';
 
 const Footer = () => {
     return (
-        <div>
+        <div className="text-center" style={{backgroundColor: '#343a40'}}>
             <Socialicon />
         </div>
     );
