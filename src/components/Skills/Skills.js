@@ -9,7 +9,7 @@ const Skills = () => {
                         <div className="card-header">
                             Front-End
                         </div>
-                        <ul class="list-group list-group-flush">
+                        <ul className="list-group list-group-flush">
                             <li className="list-group-item">HTML</li>
                             <li className="list-group-item">CSS</li>
                             <li className="list-group-item">JavaScript/ES6</li>
@@ -24,7 +24,7 @@ const Skills = () => {
                         <div className="card-header">
                             Back-End
                         </div>
-                        <ul class="list-group list-group-flush">
+                        <ul className="list-group list-group-flush">
                             <li className="list-group-item">Node.js</li>
                             <li className="list-group-item">MongoDB</li>
                             <li className="list-group-item">Express.js</li>
@@ -37,7 +37,7 @@ const Skills = () => {
                         <div className="card-header">
                             Hosting
                         </div>
-                        <ul class="list-group list-group-flush">
+                        <ul className="list-group list-group-flush">
                             <li className="list-group-item">Netlify</li>
                             <li className="list-group-item">Heroku</li>
                             <li className="list-group-item">Firebase</li>
