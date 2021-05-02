@@ -1,5 +1,6 @@
 import React from 'react';
 import shifatDP from '../../Images/ShifatDP.png'
+import Socialicon from '../Socialicon/Socialicon';
 import './AboutMe.css'
 
 const AboutMe = () => {
@@ -8,6 +9,8 @@ const AboutMe = () => {
             <div className="row text-center">
                 <div className="col-sm-6">
                     <img className="profile-img" src={shifatDP} alt=""/>
+                    <h3 className="mt-4">Connect With Me</h3>
+                    <Socialicon></Socialicon>
                 </div>
                 <div className="col-sm-6">
                     <h3>About Me</h3>

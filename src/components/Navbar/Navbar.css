@@ -3,6 +3,7 @@ nav{
 }
 .logo{
     width: 16.25rem;
+    color: var(--primary-orange) !important;
 }
 nav a.nav-link {
     /* font-weight: 500; */

@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <h1> <strong>Gazi Shifat Reza</strong> </h1>
+                <h1> <strong>I AM <br/> GAZI SHIFAT REZA</strong> </h1>
                 <Typed
                     className="typed-text"
                     strings={["Learner", "Web Developer", "Programmer"]}
