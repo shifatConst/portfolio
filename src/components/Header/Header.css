@@ -1,9 +1,9 @@
 .header-wrapper {
     position: relative;
-    background: linear-gradient(0deg, rgba(2, 1, 1, 0.596) , rgba(39, 8, 23, 0.418)), url(../../Images/headerbg.jpg) no-repeat;
+    background: linear-gradient(0deg, rgba(2, 1, 1, 0.596) , rgba(39, 8, 23, 0.418)), url(../../Images/headerbg.png) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 91vh;
+    height: 100vh;
 }
 
 .main-info {
