@@ -3,7 +3,7 @@ import './Header.css'
 import Typed from 'react-typed';
 const Header = () => {
     return (
-        <div className="header-wrapper">
+        <div className="header-wrapper" id="home">
             <div className="main-info">
                 <h1> <strong>I AM <br/> GAZI SHIFAT REZA</strong> </h1>
                 <Typed

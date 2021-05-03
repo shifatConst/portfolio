@@ -5,7 +5,7 @@ import './AboutMe.css'
 
 const AboutMe = () => {
     return (
-        <div className="container style">
+        <div className="container style" id="about-me">
             <div className="row text-center">
                 <div className="col-sm-6">
                     <img className="profile-img" src={shifatDP} alt="" />
